@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "qVWpw6+dh4S0qys6/AyjY8pvUf/biRYa6BQaJRjh18P4X3RWwoJG1p6N5vAu67jLoz7uyQelZFoiktmSZLVvGg==",
+  "success": true,
+  "projectFilePath": "D:\\DockerTest\\backend\\backendapi\\BackendAPI.csproj",
+  "expectedPackageFiles": [
+    "D:\\Nuget\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "D:\\Nuget\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "D:\\Nuget\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "D:\\Nuget\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "D:\\Nuget\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "D:\\Nuget\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "D:\\Nuget\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,24 @@
+version: "3.5"
+services:
+  app:
+    build: Backend/
+    image: app
+    ports:
+      - 5018:5018
+      - 5019:5019
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5018;https://+:5019
+      - DOTNET_GENERATE_ASPNET_CERTIFICATE=false
+
+  frontend:
+    build: Frontend/
+    ports:
+      - 5173:5173
+  
+  proxy:
+    image: nginx:mainline
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - 80:80
